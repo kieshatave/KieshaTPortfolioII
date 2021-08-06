@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #f4fff8;
+}
+
+/*Tag Targets*/
+a {
+    color: #172A3A;
+}
+
+a:hover {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+form {
+    width: 600px;
+    text-align: center;
+    margin: 22px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+input, textarea {
+    border: none;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 1px 2px #888888;
+}
+
+nav {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px auto;
+}
+/*Class Targets*/
+.contact {
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    margin: 75px auto;
+}
+
+.submit {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    background-color: #2a9d8f;
+    width: 200px;
+    color: #8fcec4;
+}
+
+.submit:hover {
+    background-color: #8fcec4;
+    color: #172A3A;
+}
+/*ID Targets*/
